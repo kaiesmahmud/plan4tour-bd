@@ -28,8 +28,8 @@
       },
     ]
   </script>
-  <div class="flex items-center justify-center">
-    <div class="w-[80%] p-5 rounded shadow bg-white/10">
+  <div class="flex items-center justify-center p-3">
+    <div class="w-full md:w-[80%] p-5 rounded shadow bg-white/10">
       <h1 class="text-center pb-5">Frequently Asked Questions or Enquires </h1>
       <Accordion.Root >
         {#each data as item}
