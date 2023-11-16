@@ -6,7 +6,7 @@
 </script>
 <div class=" relative w-full text-white overflow-hidden min-h-screen">
   <Navbar/>
-  <div class="mt-10 md:mt-20">
+  <div class="mt-8 md:mt-20">
     <slot />
   </div>
   <Footer/>
