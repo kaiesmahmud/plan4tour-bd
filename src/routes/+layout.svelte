@@ -6,7 +6,9 @@
 </script>
 <div class=" relative w-full text-white overflow-hidden min-h-screen">
   <Navbar/>
+  <div class="mt-20">
     <slot />
+  </div>
   <Footer/>
   <!-- <div class="absolute shade-1 bg-teal-400/50 left-1 opacity-40 " /> -->
   <!-- <div class='absolute gradient-01 opacity-50 left-1 ' /> -->
