@@ -21,7 +21,7 @@
         <a href="/" >Plan4Tour</a>
     </div>
     <div class="order-3">
-        <button class="text-5xl lg:hidden" on:click={handleOpen}>
+        <button class="text-5xl lg:hidden rounded bg-white/10 hover:bg-white/20 transition-all ease-in" on:click={handleOpen}>
             <Icon icon="jam:menu" />
         </button>
         
@@ -58,7 +58,7 @@
 {#if $open}
     <div class="z-[200] fixed w-screen h-screen bg-black flex flex-col gap-10 ">
         <div class="flex w-full justify-end p-5">
-            <button class="text-4xl" on:click={handleOpen}>
+            <button class="text-4xl bg-white/10 hover:bg-white/20 transition-all ease-in " on:click={handleOpen}>
                 <Icon icon="maki:cross" />
             </button>
         </div>
