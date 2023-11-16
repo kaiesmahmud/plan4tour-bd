@@ -5,6 +5,7 @@
     top: 0px;
     right: 0px;
     filter: blur(190px);
+    z-index: -20;
   }
   .gradient-01 {
     width: 200px;
@@ -22,6 +23,7 @@
       hsl(220deg 76% 51%) 100%
     );
     filter: blur(125px);
+    z-index: -20;
   }
   
   .gradient-02 {
@@ -45,8 +47,8 @@
   
   .gradient-04 {
     position: absolute;
-    width: 400px;
-    height: 400px;
+    /* width: 400px;
+    height: 400px; */
     background: rgb(206, 49, 49);
     filter: blur(120px);
     z-index: -20;
