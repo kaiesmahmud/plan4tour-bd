@@ -1,0 +1,54 @@
+.shade-1{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 0px;
+    right: 0px;
+    filter: blur(190px);
+  }
+  .gradient-01 {
+    width: 200px;
+    height: 438px;
+    top: 0px;
+    right: 0px;
+    background-image: linear-gradient(
+      270deg,
+      hsl(295deg 76% 51%) 0%,
+      hsl(284deg 70% 73%) 26%,
+      hsl(257deg 70% 86%) 39%,
+      hsl(202deg 92% 90%) 50%,
+      hsl(215deg 77% 81%) 61%,
+      hsl(221deg 73% 70%) 74%,
+      hsl(220deg 76% 51%) 100%
+    );
+    filter: blur(125px);
+  }
+  
+  .gradient-02 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: #7aebfb;
+    filter: blur(140px);
+    border-radius: 100%;
+    z-index: -20;
+  }
+  .gradient-03 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: rgb(157, 76, 238);
+    filter: blur(135px);
+    transform: rotate(-114.2deg);
+    z-index: -20;
+  }
+  
+  .gradient-04 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: rgb(206, 49, 49);
+    filter: blur(120px);
+    z-index: -20;
+  }
+  
