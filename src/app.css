@@ -53,4 +53,24 @@
     filter: blur(120px);
     z-index: -20;
   }
+
+
+  .gradient-animation {
+    background: linear-gradient(to right, cyan, purple, pink, red, green, cyan);
+    background-size: 400% 100%;
+    animation: gradient-animation 10s ease-in-out infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
   
