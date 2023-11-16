@@ -11,7 +11,7 @@
 
 <AccordionPrimitive.Item
 	{value}
-	class={cn("border-b", className)}
+	class={cn("border-b ", className)}
 	{...$$restProps}
 >
 	<slot />
