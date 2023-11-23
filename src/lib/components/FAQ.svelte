@@ -29,7 +29,7 @@
     ]
   </script>
   <div class="flex items-center justify-center p-3 relative">
-    <div class='absolute w-[200px] h-[200px] md:w-[400px] md:h-[400px] gradient-04 opacity-20 md:opacity-30 top-[-200px] left-0 gradient-animation' />
+    <div class='absolute w-[200px] h-[200px] md:w-[400px] md:h-[400px] gradient-04 opacity-20  top-[-200px] left-0 gradient-animation' />
 
     <div class="w-full md:w-[80%] p-5 rounded shadow bg-white/10">
       <h1 class="text-center pb-5">Frequently Asked Questions or Enquires </h1>
