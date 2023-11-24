@@ -17,11 +17,11 @@
     
 </script>
 <div class="fixed top-0 left-0 backdrop-blur-2xl bg-white/10 w-full p-3 z-[100] flex justify-between lg:justify-around items-center flex-wrap md:flex-nowrap">
-    <div class="text-3xl font-semibold order-1">
+    <div class="text-2xl md:text-3xl font-semibold order-1">
         <a href="/" >Plan4Tour</a>
     </div>
-    <div class="order-3">
-        <button class="text-5xl lg:hidden rounded bg-white/10 hover:bg-white/20 transition-all ease-in" on:click={handleOpen}>
+    <div class="order-3 flex items-center ">
+        <button class="text-3xl md:text-5xl lg:hidden rounded bg-white/10 hover:bg-white/20 transition-all ease-in" on:click={handleOpen}>
             <Icon icon="jam:menu" />
         </button>
         
