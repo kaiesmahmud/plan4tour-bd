@@ -23,8 +23,8 @@
 </svelte:head>
 
 <div class="min-h-screen" >
-    <div class=" w-full   overflow-hidden flex items-center justify-center">
-        <img  src="/plan4tour-1.jpeg" class="w-full" alt="">
+    <div class=" w-full    overflow-hidden flex items-center justify-center">
+        <img  src="/plan4tour-1.jpeg" class="w-full md:w-[80%] rounded" alt="">
     </div>
     <h1 class=" text-center">Hero SEction Here</h1>
     <p class=" text-center">Will Be Updating</p>
