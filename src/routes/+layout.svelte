@@ -3,9 +3,12 @@
     import "../app.css";
     import Footer from "../lib/components/Footer.svelte";
     import Navbar from "../lib/components/Navbar.svelte";
+
+    
 </script>
-<div class=" relative w-full text-white overflow-hidden min-h-screen">
-  <Navbar/>
+<div class=" relative w-full text-white overflow-hidden min-h-screen max-w-[4000px] p">
+  
+  <Navbar />
   <div class="mt-20 md:mt-20">
     <slot />
   </div>
