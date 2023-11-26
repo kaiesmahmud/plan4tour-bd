@@ -92,21 +92,21 @@
             </button>
         </div>
         <div class="flex flex-col items-center justify-center gap-3 w-full">
-            <a href="/" class="p-3 bg-slate-200 text-black rounded flex items-center justify-center gap-3 w-2/3">
+            <a href="/" class="p-3 bg-teal-200 hover:bg-teal-500 text-black rounded flex items-center justify-center gap-3 w-2/3">
                 <Icon icon="carbon:hotel" />
                 Hotels
             </a>
-            <a href="/" class="p-3 bg-pink-100 text-black rounded flex items-center justify-center gap-3 w-2/3">
+            <a href="/" class="p-3 bg-pink-100 hover:bg-pink-500 hover:text-white text-black rounded flex items-center justify-center gap-3 w-2/3">
                 <Icon icon="mdi:place-outline" />
                 Touring Places
             </a>
-            <a href="/" class="p-3 bg-violet-100 text-black rounded flex items-center justify-center gap-3 w-2/3">
+            <a href="/" class="p-3 bg-violet-100 hover:bg-violet-500 hover:text-white text-black rounded flex items-center justify-center gap-3 w-2/3">
                 <Icon icon="carbon:blog" />
                 Tour Blogs
             </a>
-            <a href="/" class="p-3 bg-green-500 text-black rounded flex items-center justify-center gap-3 w-2/3">
-                <Icon icon="clarity:camera-line" />
-                Need PhotoGrapher?
+            <a href="/" class="p-3 bg-green-300 hover:bg-green-500 text-black rounded flex items-center justify-center gap-3 w-2/3">
+                <Icon icon="ion:ticket-outline" />
+                Travel Tickets
             </a>
         </div>
     </div>
